@@ -15,6 +15,13 @@ add_message_files(
   Mission.msg
 )
 
+add_service_files(
+  FILES
+  LoadMission.srv
+  StopMission.srv
+  InsertTask.srv			
+)
+
 generate_messages(
   DEPENDENCIES
   std_msgs
@@ -23,7 +30,6 @@ generate_messages(
 catkin_package(
  CATKIN_DEPENDS message_runtime std_msgs
 )
-
 
 include_directories(
   ${catkin_INCLUDE_DIRS}
