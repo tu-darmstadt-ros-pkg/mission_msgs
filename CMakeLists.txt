@@ -13,6 +13,7 @@ add_message_files(
   Param.msg	
   Task.msg
   Mission.msg
+  MissionStatus.msg
 )
 
 add_service_files(
