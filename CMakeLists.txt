@@ -14,6 +14,7 @@ add_message_files(
   Task.msg
   Mission.msg
   MissionStatus.msg
+  TaskStatus.msg
 )
 
 add_service_files(
